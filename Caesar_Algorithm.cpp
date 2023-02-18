@@ -58,8 +58,8 @@ void decrypter(int k, string message){
                if(letter_index<0){
                	 while(letter_index<0){
                	 	letter_index=letter_index+26;
-				 }
-			   }
+		  }
+	  	}
                
                cout<<alfabet[letter_index]<<" ";
                
